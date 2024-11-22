@@ -1,0 +1,57 @@
+[2024-11-21T05:54:57.170+0000] {processor.py:186} INFO - Started process (PID=69) to work on /opt/airflow/dags/bored_api.py
+[2024-11-21T05:54:57.172+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bored_api.py for tasks to queue
+[2024-11-21T05:54:57.176+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:54:57.176+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/bored_api.py
+[2024-11-21T05:54:57.236+0000] {processor.py:925} INFO - DAG(s) 'bored_api_pipeline' retrieved from /opt/airflow/dags/bored_api.py
+[2024-11-21T05:54:57.468+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:54:57.466+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:bored_api_pipeline
+[2024-11-21T05:54:57.492+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:54:57.491+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:bored_api_pipeline
+[2024-11-21T05:54:57.508+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:54:57.507+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:bored_api_pipeline
+[2024-11-21T05:54:57.525+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:54:57.524+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:bored_api_pipeline
+[2024-11-21T05:54:57.539+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:54:57.539+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:bored_api_pipeline
+[2024-11-21T05:54:57.554+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:54:57.554+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:bored_api_pipeline
+[2024-11-21T05:54:57.571+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:54:57.570+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:bored_api_pipeline
+[2024-11-21T05:54:57.572+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:54:57.572+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T05:54:57.601+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:54:57.601+0000] {dag.py:3262} INFO - Creating ORM DAG for bored_api_pipeline
+[2024-11-21T05:54:57.623+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:54:57.622+0000] {dag.py:4180} INFO - Setting next_dagrun for bored_api_pipeline to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T05:54:57.661+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bored_api.py took 0.501 seconds
+[2024-11-21T05:55:28.523+0000] {processor.py:186} INFO - Started process (PID=137) to work on /opt/airflow/dags/bored_api.py
+[2024-11-21T05:55:28.524+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bored_api.py for tasks to queue
+[2024-11-21T05:55:28.527+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:55:28.526+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/bored_api.py
+[2024-11-21T05:55:28.556+0000] {processor.py:925} INFO - DAG(s) 'bored_api_pipeline' retrieved from /opt/airflow/dags/bored_api.py
+[2024-11-21T05:55:28.572+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:55:28.572+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T05:55:28.591+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:55:28.590+0000] {dag.py:4180} INFO - Setting next_dagrun for bored_api_pipeline to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T05:55:28.619+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bored_api.py took 0.100 seconds
+[2024-11-21T05:55:58.999+0000] {processor.py:186} INFO - Started process (PID=204) to work on /opt/airflow/dags/bored_api.py
+[2024-11-21T05:55:59.000+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bored_api.py for tasks to queue
+[2024-11-21T05:55:59.003+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:55:59.003+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/bored_api.py
+[2024-11-21T05:55:59.036+0000] {processor.py:925} INFO - DAG(s) 'bored_api_pipeline' retrieved from /opt/airflow/dags/bored_api.py
+[2024-11-21T05:55:59.059+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:55:59.058+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T05:55:59.087+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:55:59.087+0000] {dag.py:4180} INFO - Setting next_dagrun for bored_api_pipeline to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T05:55:59.126+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bored_api.py took 0.133 seconds
+[2024-11-21T05:56:29.286+0000] {processor.py:186} INFO - Started process (PID=272) to work on /opt/airflow/dags/bored_api.py
+[2024-11-21T05:56:29.287+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bored_api.py for tasks to queue
+[2024-11-21T05:56:29.289+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:56:29.289+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/bored_api.py
+[2024-11-21T05:56:29.313+0000] {processor.py:925} INFO - DAG(s) 'bored_api_pipeline' retrieved from /opt/airflow/dags/bored_api.py
+[2024-11-21T05:56:29.330+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:56:29.330+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T05:56:29.350+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:56:29.350+0000] {dag.py:4180} INFO - Setting next_dagrun for bored_api_pipeline to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T05:56:29.371+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bored_api.py took 0.089 seconds
+[2024-11-21T05:56:59.583+0000] {processor.py:186} INFO - Started process (PID=339) to work on /opt/airflow/dags/bored_api.py
+[2024-11-21T05:56:59.584+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bored_api.py for tasks to queue
+[2024-11-21T05:56:59.587+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:56:59.587+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/bored_api.py
+[2024-11-21T05:56:59.609+0000] {processor.py:925} INFO - DAG(s) 'bored_api_pipeline' retrieved from /opt/airflow/dags/bored_api.py
+[2024-11-21T05:56:59.624+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:56:59.623+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T05:56:59.643+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:56:59.642+0000] {dag.py:4180} INFO - Setting next_dagrun for bored_api_pipeline to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T05:56:59.682+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bored_api.py took 0.103 seconds
+[2024-11-21T05:57:30.272+0000] {processor.py:186} INFO - Started process (PID=412) to work on /opt/airflow/dags/bored_api.py
+[2024-11-21T05:57:30.273+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bored_api.py for tasks to queue
+[2024-11-21T05:57:30.276+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:57:30.275+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/bored_api.py
+[2024-11-21T05:57:30.301+0000] {processor.py:925} INFO - DAG(s) 'bored_api_pipeline' retrieved from /opt/airflow/dags/bored_api.py
+[2024-11-21T05:57:30.319+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:57:30.319+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T05:57:30.337+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:57:30.337+0000] {dag.py:4180} INFO - Setting next_dagrun for bored_api_pipeline to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T05:57:30.358+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bored_api.py took 0.089 seconds
+[2024-11-21T05:58:00.500+0000] {processor.py:186} INFO - Started process (PID=478) to work on /opt/airflow/dags/bored_api.py
+[2024-11-21T05:58:00.500+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bored_api.py for tasks to queue
+[2024-11-21T05:58:00.503+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:58:00.502+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/bored_api.py
+[2024-11-21T05:58:00.524+0000] {processor.py:925} INFO - DAG(s) 'bored_api_pipeline' retrieved from /opt/airflow/dags/bored_api.py
+[2024-11-21T05:58:00.540+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:58:00.540+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-21T05:58:00.559+0000] {logging_mixin.py:190} INFO - [2024-11-21T05:58:00.559+0000] {dag.py:4180} INFO - Setting next_dagrun for bored_api_pipeline to 2024-11-21 00:00:00+00:00, run_after=2024-11-22 00:00:00+00:00
+[2024-11-21T05:58:00.589+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bored_api.py took 0.093 seconds
